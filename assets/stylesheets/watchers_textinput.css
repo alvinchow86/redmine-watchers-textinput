@@ -1,0 +1,47 @@
+
+
+#watchers_form {
+    overflow: visible;   /* so the autocomplete dropdown will not be clipped */
+    min-height: 120px;
+}
+
+span#watchers_inputs {
+    display: none;
+}
+
+#watchers_form > .search_for_watchers {
+    display: none;
+}
+
+
+#watchers_textinput {
+    
+}
+
+#watchers_select_box {
+    width: 400px;
+}
+
+
+/* For the post-issue-creation, add new watchers popup */
+#add_watchers_textinput_box  {
+    height: 260px;
+}
+#add_watchers_select_box {
+    zwidth: 200px;
+    zheight: 50px;
+}
+
+#users_for_watcher {
+    display: none;
+}
+
+#add_watchers_select_box_chzn {
+    width: 350px !important;
+}
+
+/* modal box fixes..*/
+#ajax-modal.new-watcher {
+    overflow: visible;
+}
+

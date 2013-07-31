@@ -1,0 +1,6 @@
+<select multiple id="watchers_select_box" data-placeholder="Start typing a name" >
+  <% @available_watchers.each do |watcher| %>
+  <option value="<%= watcher.id %>"> <%= watcher %>  </option>
+  <% end %>
+</select>
+
