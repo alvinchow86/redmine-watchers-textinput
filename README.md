@@ -11,4 +11,7 @@ It does at least replace one view (*erb) so it is probably not super portable.
 
 The actual autocomplete plugin used is Select2 (http://ivaynberg.github.io/select2/)
 
-To install, just copy the "watchers_textinput" folder to your plugins directory and activate.
+To install run in redmine root:
+```
+git clone https://github.com/alvinchow86/redmine-watchers-textinput.git plugin/watchers_textinput
+```
